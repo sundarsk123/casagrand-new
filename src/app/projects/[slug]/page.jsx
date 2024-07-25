@@ -13,7 +13,7 @@ const Page = async ({params :{slug}}) => {
 
 async function getdata() {
   const response = await fetch(
-    `https://dezvolta.in/casagrandperch/wp-json/wp/v2/projects?slug=${slug}&_embed&acf_format=standard&per_page=100` , 
+    `https://api.casagrandperch.co.in/wp-json/wp/v2/projects?slug=${slug}&_embed&acf_format=standard&per_page=100` , 
     {  next: { revalidate: 10 }, }
   );
 

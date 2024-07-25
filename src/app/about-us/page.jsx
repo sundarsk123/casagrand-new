@@ -14,10 +14,10 @@ import Vision from './Vision/Vision';
 
 const Page = async () => {
 
-    const response = await fetch('https://dezvolta.in/casagrandperch/wp-json/wp/v2/pages?slug=home&_embed&acf_format=standard', { next: { revalidate: 10 } })
+    const response = await fetch('https://api.casagrandperch.co.in/wp-json/wp/v2/pages?slug=home&_embed&acf_format=standard', { next: { revalidate: 10 } })
     const data = await response.json();
 
-    const responseabout = await fetch('https://dezvolta.in/casagrandperch/wp-json/wp/v2/pages?slug=about-us&_embed&acf_format=standard', { next: { revalidate: 10 } })
+    const responseabout = await fetch('https://api.casagrandperch.co.in/wp-json/wp/v2/pages?slug=about-us&_embed&acf_format=standard', { next: { revalidate: 10 } })
     const datas = await responseabout.json();
     return (
         <div className={Style.about_bg}>
