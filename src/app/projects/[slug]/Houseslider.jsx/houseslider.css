@@ -1,0 +1,22 @@
+.project-border{
+    border: 1px solid #726658;
+    border-radius: 3px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0),0 6px 20px 0 rgba(0,0,0,.19)
+}
+
+@media (max-width : 1500px) {
+    
+.pd-gallery-img{
+    width: 500px;
+    height: 400px;
+}
+}
+
+.blur-img {
+    filter: blur(10px);
+    transition: filter 0.3s;
+}
+
+.clear-img {
+    filter: none;
+}

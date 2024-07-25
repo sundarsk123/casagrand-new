@@ -1,0 +1,531 @@
+body, button, input, span{
+	/* font-family: 'Outfit', sans-serif!important; */
+	
+	font-weight:300;
+}
+h1, h2, h3, h4, h5, h6{
+  font-family: 'TropicalAvenue'!important;
+}
+
+.contact-pg{
+    /* background-image: url("/project/project-bg.png"); */
+    background-image: url(https://dezvolta.in/casagrand-perch/img/nipater.png);
+    background-repeat: repeat;
+    background-size: 100px 100px;
+    /* background-position: center; */
+    
+    }
+
+.coninp-sub{background-color: transparent;}
+.coninp{
+    background: transparent;
+}
+.cs1{
+padding-top:200px;}
+.font-200 {
+    font-size: clamp(30px, 12vw, 200px);
+	text-transform:uppercase;
+	font-weight:400;
+	text-align:center;
+}
+.cs1_formrow{
+border-top:1px solid #000;
+border-bottom:1px solid #000;
+margin-left:60px;
+margin-right:60px;
+margin-top: 30px;
+}
+.cs1-image{
+border-radius: 40px 0px 0px 40px;
+  
+    object-fit: cover;
+    object-position: left;
+}
+
+/***input css **/
+
+
+
+
+
+.input-box.active-grey .input-1 {
+  border: 1px solid #3C3C3C;
+}
+.input-box.active-grey .input-label {
+  color: #000;
+  top: -12px;
+  background-image: url("/contact/product-bg.jpg");
+    background-repeat: repeat;
+    background-size: contain;
+    background-position: center;
+  /*font-size: 12px;*/
+  transition: 250ms;
+}
+
+.input-box {
+  position: relative;
+  /*margin: 10px 0;*/
+  margin-bottom:40px;
+}
+.input-box .input-label {
+  position: absolute;
+  color: #80868b;
+  /*font-size: 16px;
+  font-weight: 400;*/
+  max-width: calc(100% - (2 * 8px));
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  right: 12px;
+  top: 13px;
+  padding: 0 8px;
+  transition: 250ms;
+  user-select: none;
+  pointer-events: none;
+}
+
+.input-box .input-1 {
+  box-sizing: border-box;
+ /* height: 50px;*/
+  width: 100%;
+  border-radius: 4px;
+  color: #202124;
+  background-color:transparent;
+  border: 1px solid #3C3C3C;
+  padding: 13px 15px;
+  transition: 250ms;
+}
+.input-box .input-1:focus {
+  outline: none;
+  border: 1px solid #1a73e8;
+  transition: 250ms;
+}
+
+.form-col{
+    display: flex;
+    width: 100%;
+    align-items:center;
+}
+
+
+.form-col1 {
+    width: 50%;
+    margin-right: 4%;
+}
+.form-col2 {
+    width: 50%;
+}
+.form-col .termssec1{
+    width:60%;
+    margin-right:0px;
+}
+.form-col .termssec2{
+    width:40%;
+}
+/***input css end **/
+
+
+/**** contactform  checkbox css ***/
+.checkbox-label {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+/*  margin-bottom: 12px;*/
+  cursor: pointer;
+  /*font-size: 18px;*/
+  color:#8C8C8C;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.checkbox-label input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 2px;
+  left: 0;
+  height: 23px;
+  width:23px;
+  border-radius:5px;
+  background:transparent;
+  border:1px solid #8C8C8C;
+
+}
+
+/* On mouse-over, add a grey background color */
+/* .checkbox-label:hover input ~ .checkmark {
+  /*background-color: #ccc;
+} */
+
+/* When the checkbox is checked, add a blue background */
+.checkbox-label input:checked ~ .checkmark {
+  background: linear-gradient(to right, #FF9B28, #FFC100);
+  border: 1px solid transparent;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.checkbox-label input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.checkbox-label .checkmark:after {
+content: "\2713";
+    left: 5px;
+    top: -3px;
+    color: #fff;
+    font-size: 18px;
+  
+  
+}
+.checkbox-label a{
+font-weight:500;
+color:#000;
+text-decoration:underline;}
+
+/**** contactform  checkbox css end ***/
+.cs1-col1{
+overflow:hidden;
+padding:0px;
+}
+.cs1-col2{
+border-left:1px solid #000;
+padding-right: 50px;
+    padding-left: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.cs2{
+margin-left:60px;
+margin-right:60px;
+padding-bottom:50px;
+}
+.cs2row{
+padding-top:80px;
+padding-bottom:80px;
+padding-left:60px;
+padding-right:60px;
+border-bottom:1px solid #000;
+position:relative;
+}
+.cs2 .font-100{margin-bottom:0px;}
+.locationTitle{
+font-size:18px;
+font-weight:500;}
+.align-item-center{
+    align-items: center;
+}
+.margin-0{
+margin:0px;}
+.border-none{
+border:none;}
+.con-btn{
+max-width: 148px;
+float:right;}
+
+@media (max-width: 991px){
+.cs1-col2{
+border-left:none;}
+
+}
+@media (max-width: 767px){
+.input-box{
+    margin-bottom: 30px; 
+}
+.cs1{
+padding-top:150px;
+}
+.cs1_formrow{
+margin-left:0px;
+margin-right:0px;
+}
+.cs2{
+margin-left:0px;
+margin-right:0px;
+}
+.cs2row{
+margin:0px;
+padding-top:40px;
+padding-bottom:30px;
+}
+.cs2row .margin-0{
+margin-bottom:1rem;}
+
+}
+@media (max-width: 576px){
+    
+.cs1-col2{
+padding-left:0px;
+padding-right:0px;
+padding-top:0px;
+}
+.cs2row{
+padding-left:0px;
+padding-right:0px;}
+.form-col{
+display:inherit;
+    
+}
+.checkbox-label{
+    margin-bottom: 12px;
+}
+.form-col1{
+width:100%;
+margin-right:0px;}
+.form-col .termssec1{
+  width:100%;  
+}
+.form-col2{
+width:100%;}
+.form-col .termssec2{
+  width:100%;  
+}
+.con-btn{
+float:left;
+margin-top:20px;
+}
+
+}
+
+.email-tag{
+    display:none;
+    background: #D74532;
+    border-radius: 50px;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    padding: 12px 20px;
+    padding: 12px 20px;
+    border: 1px solid #D74532;
+    font-weight: 500;
+    transform: rotate(-23deg);
+    /* left: 25%;
+    top: 21%; */
+    /* transition: 3s; */
+    /* position: absolute; */
+    transform: rotate(-23deg);
+    position: fixed;
+    top: 0;
+    left: 0;
+    will-change: transform;
+    pointer-events: none;
+    z-index: 999;
+
+}
+
+.anim{
+  position: fixed;
+  top: 0;
+  left: 0;
+  will-change: transform;
+  pointer-events: none;
+  z-index: 999;
+}
+
+
+
+.call-tag{
+  display:none;
+  background: #34A853;
+  border-radius: 50px;
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+  padding: 12px 20px;
+  padding: 12px 20px;
+  border: 1px solid #34A853;
+  font-weight: 500;
+  transform: rotate(-23deg);
+  /* left: 25%;
+  top: 21%;
+  transition: 3s;
+  position: absolute; */
+  transform: rotate(-23deg);
+  position: fixed;
+  top: 0;
+  left: 0;
+  will-change: transform;
+  pointer-events: none;
+  z-index: 999;
+}
+
+.loca-tag{
+  display:none;
+  background: #1A73E8;
+  border-radius: 50px;
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+  padding: 12px 20px;
+  /* padding: 12px 20px; */
+  border: 1px solid #1A73E8;
+  font-weight: 500;
+  transform: rotate(-23deg);
+  /* left: 25%;
+  top: 21%; */
+  /* transition: 3s; */
+  /* position: absolute; */
+  transform: rotate(-23deg);
+  /* position: fixed;
+  transform-origin: center;
+  overflow: hidden;
+  top: 0;
+  left: 0; */
+  position: fixed;
+  top: 0!important;
+  left: 0!important;
+  will-change: transform;
+  pointer-events: none;
+  z-index: 999;
+}
+.emailrowhover:hover .email-tag{
+    display:block;
+    
+   
+}
+
+.emailrowhover:hover .loca-tag{
+  display:block;
+  
+ 
+}
+
+.emailrowhover:hover .call-tag{
+  display:block;
+  
+ 
+}
+.email-tag img{
+width: 22px;
+height: 22px;
+margin-bottom: 4px;
+margin-right: 7px;
+transform: rotate(11deg);
+}
+.loca-tag img{
+  width: 22px;
+  height: 22px;
+  margin-bottom: 4px;
+  margin-right: 7px;
+  transform: rotate(11deg);
+  }
+  .call-tag img{
+    width: 22px;
+    height: 22px;
+    margin-bottom: 4px;
+    margin-right: 7px;
+    transform: rotate(11deg);
+    }
+@media (min-width: 992px) and (max-width: 1079px){
+.email-tag{
+left:35%;
+}
+}
+@media (max-width: 991px){
+    .cs2{
+    padding-bottom:0px;
+}
+.emailrowhover:hover .email-tag{
+display:none;
+
+}
+
+.emailrowhover:hover .loca-tag{
+  display:none;
+  
+  }
+
+  .emailrowhover:hover .call-tag{
+    display:none;
+    
+    }
+
+
+}
+.cs2row:before{
+    content: '';
+    background-image: url("/contact/line-arrow.svg");
+    width: 20px;
+	 height: 20px;
+    background-size: 8px auto;
+    background-repeat: no-repeat;
+    position: absolute;
+   
+   
+    right: -15px;
+    bottom: -14px;
+
+}
+.con-para{
+    font-size:18px;
+}
+
+.emaillink-wraper{
+        text-decoration: none;
+    color: #000;
+    display:block;
+}
+.phone-number{
+     text-decoration: none;
+    color: #000;
+}
+
+.input-1.invalid-input {
+  /* Styles for invalid input */
+  border-color: red!important; 
+}
+
+.error-message {
+  color: red; 
+}
+
+@media screen and (max-width : 768px) {
+  .dn-none-con{
+    display: none;
+  }
+}
+
+@media screen and (min-width : 768px) {
+  .dn-none-min{
+    display: none;
+  }
+
+}
+
+.mt-img{
+  margin-top: 20px;
+}
+
+.invalid .input-box.active-grey input.input-1.error {
+  border-color: red!important;
+}
+.invalid .input-box.active-grey textarea.input-1.error {
+  border-color: red!important;
+}
+.text-upper{
+  text-transform:uppercase;
+  
+  }
+
+  .center{
+    text-align: center;
+  }
+
+

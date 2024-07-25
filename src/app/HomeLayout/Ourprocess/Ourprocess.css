@@ -1,0 +1,129 @@
+/* html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+} */
+
+.mx-wd{
+    max-width: 550px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.carousel {
+    overflow: hidden;
+    width: 100%;
+  }
+  .slider-container {
+    display: flex;
+  /* transition: transform 0.7s cubic-bezier(0, 0, 0, 1.400);  */
+  /* transition: transform 0.7s cubic-bezier(1.455, 8.93, 0.515, 0.955); */
+
+  }
+
+  .slider {
+    flex: 0 0 100%;
+  }
+
+.buttons {
+margin-top: 20px;
+}
+button {
+margin-right: 10px;
+
+}
+
+path {
+  transition: fill 1s ease; /* Smooth transition for fill color */
+}
+
+.fade-in {
+	opacity: 1;
+	animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 2s;
+}
+
+@keyframes fadeInOpacity {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+@media screen and (max-width : 768.7px) {
+  .hs4-points{
+    margin-top: 8px;
+    margin-bottom: 8px!important;
+}
+
+.hs4 img{
+  width: 80%;
+}
+.hs4-num{
+  right: 34px;
+  top: -8px;
+}
+
+.hs4-num{
+  font-size: 80px;
+}
+.hs4-points li:before{
+  padding-bottom: 17px;
+}
+.hs4-points li{
+  margin-bottom: 15px;
+  font-size: 14px;
+}
+
+.hs4-process p {
+  font-size: 15px;
+  line-height:1.3em;
+  margin-bottom: 0px;
+}
+}
+
+.hs4 img{
+  max-width:100%;
+  height: auto;
+}
+
+.cur-pon{
+  cursor: pointer;
+}

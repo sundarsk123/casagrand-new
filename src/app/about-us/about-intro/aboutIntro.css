@@ -1,0 +1,64 @@
+.intro-cen{
+    text-align: center;
+    z-index: 20;
+}
+
+
+
+.intro-main-div{
+    height: 100vh;
+    background-color: #F3F3F1;
+    position: relative;
+    /* background-image: url('/about/map/AUS-map.svg');
+    background-repeat: no-repeat;
+    background-position: center; */
+}
+
+@media (max-width : 768px) {
+    .intro-main-div{
+        height: 78vh!important;
+    }
+    .intro-flex{
+        height: 78vh!important;
+    } 
+}
+
+.intro-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    max-width: 1300px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (max-width : 768px) {
+    .div-abs{
+        top: 0!important;
+    }
+}
+
+.div-abs{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 5rem;
+    left: 0;
+    align-items: center;
+    display: flex;
+    justify-content: center
+}
+
+.div-abs img{
+    width: 100%;
+    height: auto;
+    max-width: 700px;
+}
+
+@media (max-width : 768px) {
+    .div-abs img{
+        max-width: 500px!important;
+    }
+}

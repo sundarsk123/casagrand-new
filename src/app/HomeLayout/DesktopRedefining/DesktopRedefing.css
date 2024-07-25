@@ -1,0 +1,152 @@
+@media (max-width:767px) {
+    .dhs2{
+        display: none;
+    }
+}
+
+.dhs2{
+    overflow: hidden;
+    max-height: 100vh;
+    padding-top: 60px;
+    padding-bottom: 100px;
+    /* padding-left: 70px;
+    padding-right: 70px; */
+    position: relative;
+
+}
+.dhs2 .container-fluid{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.dhs2-title{
+    max-width: 700px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (min-width : 1000px) {
+    .dhs2-title{
+        max-width: 900px;
+     
+    } 
+}
+.dhs2-img-div{
+    position: relative;
+    margin-top: -85px;
+    transform: translateX(-15%);
+    /* left: 50%; */
+   text-align: center;
+   width: 100%;
+}
+.dhs2-img-sh{
+    position: absolute;
+    max-width: 370px;
+    height: auto;
+}
+.dhs2-img{
+    position: absolute;
+    max-width: 370px;
+    height: auto;
+
+}
+
+.dhs2-grid{
+    display: grid;
+    position: absolute;
+    bottom: 0px;
+    grid-template-columns: minmax(0,3fr) minmax(0,1fr) minmax(0,1fr) minmax(0,1fr) ;
+    border-top: 1px solid #B7B7B7;
+}
+
+.dhs2-col{height: 100vh;}
+.dhs2-gridcol{
+    border-left: 1px solid #B7B7B7;
+    place-content: center;
+}
+.dhs2-gridcol:nth-child(1){
+    border-left: 0;
+
+}
+.number-cont{font-family: 'TropicalAvenue';
+font-size: 7.5vh;
+line-height: 0.9;
+    margin-bottom: 0px;
+}
+.dhs2-gridcontent{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 5%;
+    display: grid;
+    align-items: center;
+    place-content: center;
+    padding-right: 5%;
+}
+
+@media (min-width : 768px) and (max-width: 1300px) {
+    .ptag p{
+        font-size: 13px;
+    }
+
+
+}
+
+/* .bouncing{
+ 
+    animation: bounce 1.5s infinite; 
+}
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% { transform: translateY(0); }
+    40% { transform: translateY(-15px); } 
+    60% { transform: translateY(-15px); }
+} */
+
+
+.bouncing {
+    animation: wobble 5s ease-in infinite;
+  }
+  
+  @keyframes wobble {
+    0% {
+      transform: translateY(0%);
+    }
+  
+    15% {
+      transform: translateY(-2%);
+    }
+  
+    30% {
+      transform: translateY(2%);
+    }
+  
+    45% {
+      transform: translateY(-2%);
+    }
+  
+    60% {
+      transform: translateY(2%);
+    }
+  
+    75% {
+      transform: translateY(-2%);
+    }
+  
+    100% {
+      transform: translateY(0%);
+    }
+  }
+
+  @media (min-width : 1500px) {
+    .dhs2-img{
+        position: absolute;
+        max-width: 450px;
+        height: auto;
+    
+    }
+    .dhs2-img-sh{
+        position: absolute;
+        max-width: 450px;
+        height: auto;
+    }
+  }

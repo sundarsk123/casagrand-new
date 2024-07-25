@@ -1,0 +1,399 @@
+.projectMain{
+/* background-image: url(./img/nipater.png); */
+    /* background-image: url("/project/project-bg.png"); */
+    background-image: url("/Allbackground/nipater.png");
+    background-repeat: repeat;
+    background-size: 100px 100px;
+    /* background-position: center; */
+    overflow: hidden;
+   
+}
+.ps1{
+padding-top:200px;
+padding-left:60px;
+padding-right:60px;
+padding-bottom:100px;
+}
+.text-upper{
+text-transform:uppercase;
+}
+.ps1-contentrow{
+padding-top:50px;}
+.ps1-contentrow p{
+padding-right:60px;
+text-align:justify;
+font-weight: 300;
+}
+.ps2{
+overflow:hidden;
+padding:30px 0px;
+background:#fff;
+border-top:1px solid #000;
+border-bottom:1px solid #000;
+}
+.ps-points{
+padding-left: 0px;
+    display: flex;
+	margin-bottom:0px;
+	align-items:center;
+    width: max-content;
+	list-style-type:none;
+}
+.ps-points li:nth-child(odd){
+padding:0px 25px;
+font-size:15px;
+text-transform:uppercase;
+font-weight:300;
+/* font-family: 'Outfit', sans-serif; */
+position:relative;
+}
+
+.ps-points li:nth-child(odd):before {
+    content: " ";
+    height: 15px;
+    width: 15px;
+    /* background: url(./img/bullet-points-06.svg) bottom left; */
+    background: url("/project/bullet-points-06.svg") bottom left;
+    position: absolute;
+    top: -2px;
+    left: 2px;
+    background-size: 13px;
+    background-repeat: no-repeat;
+    padding-bottom: 20px;
+    z-index: 1;}
+.ps-points li:nth-child(odd):after {
+    content: " ";
+    height: 15px;
+    width: 15px;
+    /* background: url(./img/bullet-points-06.svg) bottom right; */
+    background: url("/project/bullet-points-06.svg") bottom right;
+    position: absolute;
+    top: -2px;
+    right: 2px;
+    background-size: 13px;
+    background-repeat: no-repeat;
+    padding-bottom: 20px;
+    z-index: 1;}
+.ps-rated{
+font-weight:500;
+font-size:30px;
+}
+.ps-point-name{
+padding-left:20px;
+
+font-size:30px;
+font-weight:500;
+font-family: 'TropicalAvenue'!important;
+}
+.ps-points li:nth-child(even){
+padding:0px 20px;
+}
+.ps3{
+position:relative;
+overflow:hidden;
+}
+.ps3 .col-md-12{
+padding:0px;
+}
+.ps3-img{
+height: 100vh;
+    object-fit: cover;
+}
+.ps3-button{
+padding:5px 20px;
+background:#000000;
+color:#fff;
+border-radius:25px;
+
+
+ }
+ .ps3-button:first-child{
+ margin-right:20px;
+ }
+ .ps3-button-sec{
+ position:absolute;
+ bottom:30px;
+ right:0px;
+ padding-right:30px;
+ }
+ 
+ .ps4{
+     overflow:hidden;
+ padding-top:50px;
+ padding-bottom:100px;
+ padding-left:30px;
+ padding-right:30px;
+ 
+ }
+ .ps4-button-sec{
+ padding-bottom:50px;
+ padding-left: 30px;
+    padding-right: 30px;
+    cursor: pointer;
+ }
+ .ps4-button{
+ text-transform:uppercase;
+ font-weight:400;
+ padding:5px 15px;
+ padding-left:28px;
+border:1px solid #fff;
+color:#000;
+border-radius:25px;
+position:relative;
+ }
+ .ps4-button:before{
+     content: " ";
+    height: 12px;
+    width: 12px;
+    /* background: url(./img/bullet-points-06.svg) bottom left; */
+    background: url("/project/bullet-points-06.svg") bottom left;
+    position: absolute;
+    top: 2px;
+    left: 12px;
+    background-size: 12px;
+    background-repeat: no-repeat;
+    padding-bottom: 20px;
+    z-index: 1;
+ }
+ .ps4-button:first-child{
+ margin-right:20px;
+ }
+ .ps4-btnactive{
+    
+ background:#fff;}
+ .ps4-btnactive:before{
+      /* background: url(./img/bullet-points-black.svg) bottom left; */
+      background: url("/project/bullet-points-black.svg") bottom left;
+      background-repeat:no-repeat;
+ }
+ .ps4-grid-img{
+ border-radius: 30px;
+    padding-bottom: 12px;
+    width: 100%;
+ }
+ .ps4-col:hover .ps4-grid{
+     scale:0.95;
+     transition:0.3s;
+ }
+  .ps4-col .ps4-grid{
+     transition:0.3s;
+ }
+ .ps4-pd-title-outer{
+ padding-top:5px;
+ }
+ .ps4-pd-title{
+ font-size: 18px;
+    font-weight: 500;
+ }
+
+ .ps4-pd-outer{
+ display: flex;
+    place-content: space-between;
+    padding: 7px 20px;
+    
+    border-color: transparent;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 30px 30px 30px 30px;
+    
+ }
+ .ps4-pd{
+     font-weight:400;
+ }
+ .ps4-pd img{
+ margin-top: -4px;
+    width: 15px;
+    margin-right: 9px;
+ }
+ .ps4-col a{
+ border-right: 1px solid #000;
+ border-bottom:1px solid #000;
+ padding-bottom:30px;
+ padding-top:30px;
+ padding-left:30px;
+ padding-right:30px;
+ transition:0.3s;
+ cursor: pointer;
+ }
+
+
+
+
+ .ps4-col:nth-child(1) a,.ps4-col:nth-child(2) a,.ps4-col:nth-child(3) a,.ps4-col:nth-child(4) a {
+ border-top:1px solid #000;
+ }
+ 
+ .ps4 .ps4-col:hover a{
+ background:#fff;
+ transition:0.3s;
+ 
+ }
+ .ps4 .ps4-col:hover .ps4-pd-outer{
+ border-color:#D1D3D4;
+ }
+ .ps4-button-col{
+ padding-left:0px;
+ padding-right:0px;
+ }
+  @media (min-width: 1200px) and (max-width: 1400px){
+       .ps4-pd-outer{
+         padding: 5px 6px;
+     }
+      .ps4-col a{
+        padding-left:15px;
+        padding-right:15px;
+    }
+     
+  }
+  @media (min-width: 992px) and (max-width: 1040px){
+ .ps4-pd-outer{
+         padding: 5px 6px;
+     }
+ }
+ @media (max-width: 1200px){
+      
+    .ps4-col a{
+        padding-left:20px;
+        padding-right:20px;
+    }
+     .ps1-contentrow p{
+         padding-right: 0px;
+     }
+ }
+ @media (min-width: 1200px){
+ .ps4-col:nth-child(4n) a{
+  border-right:none;
+ }
+ }
+ 
+ @media (min-width: 992px) and (max-width: 1200px){
+ .ps4-col:nth-child(3n) a{
+  border-right:none;
+ }
+ .ps4-col:nth-child(4) a{
+     border-top: none;
+ }
+ }
+  @media (min-width: 992px) and (max-width: 1200px){
+ .ps4-col:nth-child(3n) a{
+  border-right:none;
+ }
+ .ps4-col:nth-child(4) a{
+     border-top: none;
+ }
+ }
+  @media (min-width: 576px) and (max-width: 991px){
+ .ps4-col:nth-child(2n) a{
+  border-right:none;
+ }
+ .ps4-col:nth-child(3) a,.ps4-col:nth-child(4) a{
+     border-top: none;
+ }
+ }
+  @media (max-width: 767px){
+      .ps4-button-sec{
+          padding-left:0px;
+          padding-right:0px;
+      }
+      
+      .ps1{
+          padding-top:150px;
+          padding-bottom:50px;
+          padding-left:0px;
+          padding-right:0px;
+      }
+      .ps1-contentrow{
+          padding-top:10px;
+      }
+      .ps-rated{
+          font-size:30px;
+      }
+      .ps-point-name{
+          font-size:30px;
+      }
+      
+ .ps4-col a{
+ padding-left:15px;
+ padding-right:15px;
+ }
+ .ps4{
+ padding-left:0px;
+ padding-right:0px;
+ padding-bottom:75px;
+ }
+ .ps4-pd-outer{   
+ padding: 3px 8px;
+}
+.ps4-pd img{
+    margin-right: 3px;
+	}
+	.ps3 .container-fluid{
+	    padding-left:0px;
+	    padding-right:0px;
+	}
+	.ps4-button:first-child {
+    margin-right: 13px;
+}
+	.ps4-button{
+	    font-size:15px;
+	    padding: 4px 15px;
+	    padding-left: 28px;
+	}
+	
+ }
+  @media (max-width: 576px){
+      .ps4-button-col{
+          padding-left:15px;
+          padding-right:15px;
+      }
+      .ps4-col:nth-child(2) a,.ps4-col:nth-child(3) a,.ps4-col:nth-child(4) a{
+          border-top:none;
+      }
+      
+      .ps4-col a{
+          border-right:none;
+      }
+  }
+  
+  @media (max-width: 400px){
+      .ps4-button{
+          margin-bottom: 15px;
+    display: inline-block;
+      }
+      .ps4-button-sec{
+          padding-bottom:35px;
+      }
+  }
+
+  .project-img{
+    width: 100%;
+ 
+  }
+
+  @media screen and (max-width : 768px) {
+    .desk-none{
+        display: none;
+    }
+  }
+
+  @media screen and (min-width : 768px) {
+    .mob-none{
+        display: none;
+    }
+  }
+
+  .ps4-col{
+    padding-left: 0px;
+    padding-right: 0px;
+    display: flex;
+  }
+
+.ps4-col a {
+    display: block;
+    width: 100%;
+}
+
+.project-row{
+    margin-left: 0;
+    margin-right: 0;
+}

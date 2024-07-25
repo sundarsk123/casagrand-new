@@ -1,0 +1,33 @@
+/* @keyframes slide {
+    0% { transform: translateY(-200%); }
+    100% { transform: translateY(200%); }
+
+}
+
+.hs img{
+    animation: slide 4s linear infinite ;
+}
+
+/* @keyframes slides {
+    0% {
+        transform: translateY(0);
+    }
+  
+    100% {
+        transform:translateY(-900%);
+    }
+
+} 
+
+@keyframes slides {
+    0% { transform: translateY(200%); }
+    100% { transform: translateY(-200%); }
+  }
+  
+
+.hss img{
+    animation: slides 4s linear infinite ;
+} */
+
+
+

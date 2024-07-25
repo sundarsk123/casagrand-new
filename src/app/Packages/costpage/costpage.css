@@ -1,0 +1,137 @@
+.g-total{
+    background-color: #FEF6ED;
+    display: inline-block;
+    padding: 8px 20px 8px 20px;
+    margin-left: -12px;
+}
+
+.g-total p{
+    margin-bottom: 0px;
+    font-size: 18px;
+    padding-left: 30px;
+}
+
+
+
+.g-total .total-cost{
+    color: #FF901C;
+    font-size: 25px;
+    font-weight: 800;
+    padding-left: 20px;
+
+}
+
+.g-total .total-title{
+    position: relative;
+    top: -3px;
+}
+
+.g-price-div{
+    padding: 30px 10px 0px 30px;
+}
+
+.g-title p{
+    font-size: 18px;
+    margin-bottom: 0px;
+    font-weight: 500;
+    max-width: 400px;
+}
+
+.g-col-1{
+    flex-basis: unset;
+    flex-grow: unset;
+    max-width: 48%;
+    width: 100%;
+    padding-left: 25px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.g-col-2{
+    flex-basis: unset;
+    flex-grow: unset;
+    max-width: 52%;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.donut-mxwd{
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+
+  .built-clr{
+    background-color: #FEAF5D;
+    height: 6px;
+    width: 18px;
+    border-radius: 20px;
+    display: inline-block;
+    margin-right: 5px;
+    margin-bottom: 2px
+  }
+
+  .car-clr{
+    background-color: #FFD4A4;
+    height: 6px;
+    width: 18px;
+    border-radius: 20px;
+    display: inline-block;
+    margin-right: 5px;
+    margin-bottom: 2px
+  }
+
+  .tank-clr{
+    background-color: #726658;
+    height: 6px;
+    width: 18px;
+    border-radius: 20px;
+    display: inline-block;
+    margin-right: 5px;
+    margin-bottom: 2px
+  }
+
+  .g-all-price p{
+    color: #616161;
+    display: grid;
+    grid-template-columns: 30px auto auto;
+    gap: 0px;
+    align-items: center;
+
+  }
+
+  .g-all-price .price-value{
+    font-size: 18px;
+    font-weight: 500;
+    color: #000;
+   
+  }
+
+  @media screen and (max-width : 1025px) {
+    .g-col-1{
+        max-width: 100%;
+    }
+    .g-col-2{
+        max-width: 100%;
+    }
+    .g-price-div{
+        padding: 30px 0px 0px 0px;
+    }
+    .g-col-1{
+        padding-left: 15px;
+    }
+    .g-total{
+        margin-left: -30px;
+    }
+    .g-title p{
+        margin: 0 auto;
+        text-align: center;
+
+    }
+  }
+
+  .cc2{
+    padding-top: 60px;
+  }

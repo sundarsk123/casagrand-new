@@ -1,0 +1,279 @@
+.vision p {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+
+.Vision {
+    padding-top: 100px !important;
+}
+
+.Vision {
+    padding: 3rem;
+    max-width: 1700px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.vision-heading {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.vision-acc-main {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding: 1rem 0;
+    width: 100%;
+}
+
+.vision-acc-main-two {
+    width: 85%;
+
+}
+
+.vision-acc {
+    display: flex;
+    border: 1px solid #CCCCCC;
+    padding: 1.5rem 0 3rem 1rem;
+}
+
+.vision-acc-first {
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+}
+
+.vision-acc-second {
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+}
+
+.vision-acc-third {
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+}
+
+
+.vision-left {
+    width: 50%;
+    padding-left: 10rem;
+}
+
+.vision-left h3 {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.vision-left p {
+    font-size: 18px;
+    font-weight: 300;
+    color: #979191;
+
+}
+
+.vision-right {
+    width: 50%;
+}
+
+.vision-right p:first-child {
+    font-size: 18px;
+}
+
+.vision-right p:last-child {
+    text-align: justify;
+    max-width: 75%;
+}
+
+@media (width > 768px) and (width < 1024px) {
+    .vision p {
+        margin: 0;
+        padding: 0;
+        font-size: 16px;
+    }
+
+    .Vision {
+        padding-top: 100px !important;
+    }
+
+    .Vision {
+        padding: 3rem;
+        max-width: 1700px;
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    .vision-heading {
+        font-size: 24px;
+        font-weight: 700;
+    }
+
+    .vision-acc-main {
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        margin: 6rem 0;
+        width: 100%;
+    }
+
+    .vision-acc-main-two {
+        width: 100%;
+
+    }
+
+    .vision-acc {
+        display: flex;
+        border: 1px solid #CCCCCC;
+        padding: 1.5rem 0 3rem 1rem;
+    }
+
+    .vision-acc-first {
+        border-left: none;
+        border-right: none;
+        border-bottom: none;
+    }
+
+    .vision-acc-second {
+        border-left: none;
+        border-right: none;
+        border-bottom: none;
+    }
+
+    .vision-acc-third {
+        border-left: none;
+        border-right: none;
+        border-bottom: none;
+    }
+
+
+    .vision-left {
+        width: 50%;
+        padding-left: 10rem;
+    }
+
+    .vision-left h3 {
+        font-size: 30px;
+        font-weight: 500;
+    }
+
+    .vision-left p {
+        font-size: 18px;
+        font-weight: 300;
+        color: #979191;
+
+    }
+
+    .vision-right {
+        width: 50%;
+    }
+
+    .vision-right p:first-child {
+        font-size: 18px;
+    }
+
+    .vision-right p:last-child {
+        text-align: justify;
+        max-width: 75%;
+    }
+
+}
+
+@media (width > 310px) and (width < 767px) {
+    .vision p {
+        margin: 0;
+        padding: 0;
+        font-size: 16px;
+    }
+
+    .Vision {
+        padding-top: 100px !important;
+    }
+
+    .Vision {
+        padding: 0rem;
+        max-width: 1700px;
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    .vision-heading {
+        font-size: 24px;
+        font-weight: 700;
+        padding-left: 1rem;
+    } 
+
+    .vision-acc-main {
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        margin: 1rem 0;
+        width: 100%;
+    }
+
+    .vision-acc-main-two {
+        width: 100%;
+
+    }
+
+    .vision-acc {
+        display: block;
+        border: 1px solid #CCCCCC;
+        padding: 1.5rem 0 3rem 1rem;
+    }
+
+    .vision-acc-first {
+        border-left: none;
+        border-right: none;
+        border-bottom: none;
+    }
+
+    .vision-acc-second {
+        border-left: none;
+        border-right: none;
+        border-bottom: none;
+    }
+
+    .vision-acc-third {
+        border-left: none;
+        border-right: none;
+        border-bottom: none;
+    }
+
+
+    .vision-left {
+        width: 100%;
+        padding-left: 2rem;
+        text-align: start;
+    }
+
+    .vision-left h3 {
+        font-size: 30px;
+        font-weight: 500;
+    }
+
+    .vision-left p {
+        font-size: 18px;
+        font-weight: 300;
+        color: #979191;
+
+    }
+
+    .vision-right {
+        width: 100%;
+    }
+
+    .vision-right p:first-child {
+        font-size: 18px;
+    }
+
+    .vision-right p:last-child {
+        text-align: justify;
+        max-width: 75%;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+}

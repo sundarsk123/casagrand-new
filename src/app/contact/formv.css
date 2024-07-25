@@ -1,0 +1,14 @@
+@media screen and (min-width : 768px){
+    .ds-flex{
+        display: flex;
+        flex-direction: row;
+        flex: 1 1 0%;
+        gap: 2rem;
+    }
+}
+
+.child-df{
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 0%;
+}

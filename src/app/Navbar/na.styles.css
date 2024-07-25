@@ -1,0 +1,13 @@
+.co {
+  opacity: 0;
+  visibility: hidden;
+    transition: 0.5s;
+   display: none;
+  }
+  
+.co.show {
+  opacity: 1;
+  visibility: visible;
+  transition: 0.5s;
+}
+

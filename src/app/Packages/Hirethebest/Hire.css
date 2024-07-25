@@ -1,0 +1,33 @@
+@media screen and (min-width : 768px) {
+    .deskimg{
+        display: block;
+    }
+    .mobiimg{
+        display: none;
+    }
+}
+
+@media screen and (max-width : 767px) {
+    .deskimg{
+        display: none;
+    }
+    .mobiimg{
+        display: block;
+    }
+
+}
+
+.wd-100{
+    width: 100%;
+    
+}
+
+.font-45{
+    font-size: 45px;
+}
+
+@media screen and (max-width : 767px) {
+    .font-45{
+        font-size: 30px;
+    }
+}

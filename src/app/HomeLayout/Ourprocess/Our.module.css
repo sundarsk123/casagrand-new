@@ -1,0 +1,20 @@
+/* .fade-in {
+    opacity: 0; 
+    transition: opacity 0.7s ease; 
+}
+
+.fade-in.show {
+    opacity: 1; 
+} */
+
+.sliderq {
+   transition: .5s;
+   transform: translateY(20px);
+   opacity: 0;
+  }
+  
+  .sliderActiveq {
+    transition: .5s;
+    transform: translateY(0px);
+    opacity: 1;
+  }

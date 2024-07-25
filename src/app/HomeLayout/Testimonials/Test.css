@@ -1,0 +1,9 @@
+@media screen and (max-width : 575px){
+    .dis-none{
+        display: none;
+    }
+}
+
+.hs10 p{
+    font-weight: 300!important;
+}

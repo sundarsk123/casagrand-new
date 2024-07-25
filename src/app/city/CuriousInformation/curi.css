@@ -1,0 +1,10 @@
+@media screen and (max-width : 395px) {
+    .dis-inline{
+        display: inline-block;
+        margin-top: 5px;
+    }
+}
+
+input.cerror {
+    border: 1px solid #ff0000;
+}

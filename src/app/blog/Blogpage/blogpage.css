@@ -1,0 +1,135 @@
+.costcalculatorlMain{
+    background-image: url("/bg/nipater-im.png");
+        background-repeat: repeat;
+        background-size: 100px 100px;
+        
+    }
+    .blog1{
+    
+    padding-top:200px;
+    padding-left:60px;
+    padding-right:60px;
+    padding-bottom:100px;
+    overflow:hidden;
+    
+    }
+    .blog-grid:first-child{	border-top: 1px solid #353535;}
+    .blog-grid{
+    max-width: 1024px;
+        margin: 0px auto;
+        padding-top:40px;
+        padding-bottom:40px;
+        border-bottom: 1px solid #353535;
+    }
+
+    .blog-post-author:before{
+    content: '';
+        margin-left: 30px;
+        border-left: 1px solid #353535;
+        height: 100%;
+        left: -15px;
+        position: relative;
+    }
+    .blog-inner-div{
+    padding-top:50px;}
+    .blog-img-div img{
+    border-radius:8px;}
+    .blog-grid .col-md-6{
+    padding:0px;}
+    .blog-grid .col-md-6:nth-child(2){
+    padding-left:50px;
+    }
+    @media (max-width:767px){
+    .blog-inner-div{
+        padding-top:30px;
+    }
+    .blog1{
+    padding-top:150px;
+    padding-left:0px;
+    padding-right:0px;
+    }
+    .blog-grid .col-md-6:nth-child(2){
+    padding-left:0px;}
+    .blog-grid-row{
+    flex-direction: column-reverse;
+    }
+    .blog-content-div{
+    padding-top:30px;}
+    }
+    .blog-grid-row{
+    margin-left:0px;
+    margin-right:0px;
+    
+    }
+    .footer{
+        background:#fff;
+    }
+
+.com-img{
+    width: 100%;
+    height: auto;
+}
+
+.blog-grid a{
+    text-decoration: none;
+    color: inherit
+}
+
+.pagination{
+    margin-top: 30px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.pagination .active{
+   
+    cursor: pointer;
+}
+
+.pagination-btn{
+    padding: 10px 15px;
+    margin: 3px;
+    font-weight: 500;
+    border: 1px solid #e6e6e6;
+    cursor: pointer;
+}
+
+.next-btn{
+    border: none;
+    background: transparent;
+    margin: 3px;
+    cursor: pointer;
+}
+
+.pre-btn{
+    border: none;
+    background: transparent;
+    margin: 3px;
+    cursor: pointer;
+}
+
+.next-btn:disabled{
+    opacity: 0;
+    pointer-events: none;
+}
+
+.pre-btn:disabled{
+    opacity: 0;
+    pointer-events: none;
+}
+
+.pagination button {
+    padding: 10px 15px;
+    margin: 3px;
+    font-weight: 500;
+    border: 1px solid #e6e6e6;
+    cursor: pointer;
+    transition: background-color 0.3s ease; 
+}
+
+.pagination button.active {
+    background-color: #ffbd04;
+    border: 1px solid #ffbd04; 
+}
+
+

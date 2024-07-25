@@ -1,0 +1,110 @@
+.last-margin{
+    padding-top: 70px;
+}
+@media (min-width: 1000px) {
+    .ab-txt-cen {
+        max-width: 1200px!important;
+    }
+}
+
+.ab-txt-cen {
+    max-width: 700px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (max-width : 767px) {
+    .last-flex-div{
+        display: none;
+    }
+}
+
+@media (min-width : 768px) {
+    .last-flex-div{
+        display: flex;
+        justify-content: space-around;
+    } 
+}
+
+
+.last-custom{
+    color: #000000;
+    
+}
+
+.last-custom span{
+    font-size: 60px;
+    font-weight: 500;
+}
+.last-cus-font{
+    font-size: 60px;
+    font-weight: 500;
+}
+
+.last-flex-div-padding{
+    padding: 60px 0px 60px 0px;
+}
+
+.last-flex-div-padding-bottom{
+    padding-bottom: 60px;
+}
+
+.last-custom p{
+    text-align: center;
+}
+
+.last-custom p{
+    margin-bottom: 0px!important;
+}
+
+.p-width{
+   
+}
+
+.last-custom{
+    /* position: relative; */
+    width: 33.33%;
+}
+
+.last-font-size{
+    font-size: 40px;
+}
+
+@media (max-width : 768px) {
+    .last-font-size{
+        font-size: 27px;
+        /* text-align: center; */
+    }
+}
+
+.aboslue-div{
+    position: absolute;
+    left: -10px;
+    width: 100%;
+}
+
+.df-con{
+    display: flex;
+}
+
+.wd-div{
+    width: 50%;
+}
+
+.wd-60{
+    width: 55%;
+}
+
+.wd-40{
+    width: 45%;
+}
+
+.end-df{
+    display: flex;
+    justify-content: end
+}
+.start-df{
+    display: flex;
+    justify-content: flex-start
+}

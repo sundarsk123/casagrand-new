@@ -1,0 +1,280 @@
+.Choose p {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+
+.Choose {
+    padding-top: 100px !important;
+}
+
+.Choose {
+    padding: 3rem;
+    max-width: 1700px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.choose-heading {
+    font-size: 24px;
+    font-weight: 00;
+}
+
+.choose-acc-main {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding: 1rem 0;
+    width: 100%;
+}
+
+.choose-acc-main-two {
+    width: 85%;
+
+}
+
+.choose-acc {
+    display: flex;
+    border: .5px solid #CCCCCC;
+    padding: 4rem 1rem;
+}
+
+.choose-acc-first {
+    border-left: none;
+    border-right: none;
+}
+
+.choose-acc-second {
+    border-left: none;
+    border-right: none;
+    border-top: none;
+}
+
+.choose-acc-third {
+    border-left: none;
+    border-right: none;
+    border-top: none;
+}
+
+.choose-acc-four {
+    border-left: none;
+    border-right: none;
+    border-top: none;
+}
+
+.choose-left {
+    width: 50%;
+    padding-left: 10rem;
+}
+
+.choose-left h3 {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.choose-left p {
+    font-size: 18px;
+    font-weight: 300;
+    color: #979191;
+
+}
+
+.choose-right {
+    width: 50%;
+}
+
+.choose-right p:first-child {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.choose-right p:last-child {
+    text-align: justify;
+    max-width: 75%;
+}
+
+.res-head {
+    display: none;
+}
+
+@media (width > 768px) and (width < 1024px) {
+
+    .choose-acc-main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 6rem 0;
+        width: 100%;
+    }
+
+    .choose-acc-main-two {
+        width: 100%;
+
+    }
+
+    .choose-acc {
+        display: flex;
+        border: .5px solid #CCCCCC;
+        padding: 4rem 1rem;
+    }
+
+    .choose-acc-first {
+        border-left: none;
+        border-right: none;
+    }
+
+    .choose-acc-second {
+        border-left: none;
+        border-right: none;
+        border-top: none;
+    }
+
+    .choose-acc-third {
+        border-left: none;
+        border-right: none;
+        border-top: none;
+    }
+
+    .choose-acc-four {
+        border-left: none;
+        border-right: none;
+        border-top: none;
+    }
+
+    .choose-left {
+        width: 50%;
+        padding-left: 5rem;
+    }
+
+    .choose-left h3 {
+        font-size: 30px;
+        font-weight: 500;
+    }
+
+    .choose-left p {
+        font-size: 18px;
+        font-weight: 300;
+        color: #979191;
+
+    }
+
+    .choose-right {
+        width: 50%;
+    }
+
+    .choose-right p:first-child {
+        font-size: 18px;
+        font-weight: 300;
+    }
+
+    .choose-right p:last-child {
+        text-align: justify;
+        max-width: 85%;
+    }
+
+    .res-head {
+        display: none;
+    }
+}
+
+@media (width > 310px) and (width < 767px) {
+
+    .Choose {
+        padding: 0;
+        max-width: 1700px;
+        margin: 0 auto;
+        width: 100%;
+    }
+    .choose-heading {
+        font-size: 17px;
+    }
+
+    .choose-heading {
+         padding: 0 1rem;
+    }
+
+    .choose-acc-main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 1rem 0;
+        width: 100%;
+    }
+
+    .choose-acc-main-two {
+        width: 100%;
+
+    }
+
+    .choose-acc {
+        border: .5px solid #CCCCCC;
+        padding: 2rem 1rem;
+        display: block;
+
+    }
+
+    .choose-acc-first {
+        border-left: none;
+        border-right: none;
+    }
+
+    .choose-acc-second {
+        border-left: none;
+        border-right: none;
+        border-top: none;
+    }
+
+    .choose-acc-third {
+        border-left: none;
+        border-right: none;
+        border-top: none;
+    }
+
+    .choose-acc-four {
+        border-left: none;
+        border-right: none;
+        border-top: none;
+    }
+
+    .choose-left {
+        width: 100%;
+        padding-left: 0rem;
+    }
+
+    .choose-left h3 {
+        font-size: 30px;
+        font-weight: 500;
+    }
+
+    .choose-left p {
+        font-size: 18px;
+        font-weight: 300;
+        color: #979191;
+
+    }
+
+    .choose-right {
+        width: 100%;
+
+    }
+
+    .choose-right p:first-child {
+        font-size: 18px;
+        font-weight: 300;
+        display: none;
+    }
+
+    .res-head {
+        display: block;
+        font-size: 18px;
+        font-weight: 300;
+    }
+
+    .choose-right p:last-child {
+        text-align: justify;
+        max-width: 85%;
+        width: 100%;
+        margin: 1rem auto;
+
+    }
+}

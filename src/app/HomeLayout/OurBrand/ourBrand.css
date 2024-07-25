@@ -1,0 +1,113 @@
+@media screen and (min-width : 768px) {
+	.hs9-col1{
+		padding: 0px;
+		position:relative;
+	}
+	.hs9-logo img{
+		max-width: 170px;
+		/* margin: 40px 20px!important; */
+		object-fit: contain!important;
+	}
+}
+
+ .hs9 img{
+    max-width: 100%;
+    
+ } 
+
+
+@media screen and (max-width : 768px) {
+    .he{
+        height: auto;
+    }
+}
+
+
+/* @media(max-width:991px) and (min-width:768px){
+    .hs9-logo img {
+        max-width: 100px;
+    }
+}
+
+@media(min-width:768px){
+    .hs9-img-mob{
+        display:none;
+    }
+    .hs9-logo{
+        overflow-x:hidden;
+        display:flex;
+        height:auto;
+    }
+    .hs9 {
+        margin:0px 20px 50px 20px;
+        padding-bottom:30px;
+    }
+    .hs9-title{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .hs9-img{
+      display:none;  
+    }
+    .hs9-col1{
+        padding-right: calc(var(--bs-gutter-x) * .5);
+        padding-left: calc(var(--bs-gutter-x) * .5);
+        position: relative;
+    }
+    .hs9-img-mob{
+        border-radius: 40px 40px 0px 0px;
+    }
+    .hs9 .container-fluid {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}
+
+@media(min-width:1600px){
+    .footer, .hs2, .hs9, .hs10{
+        max-width:1600px;
+        margin-left:auto;
+        margin-right:auto;
+    }
+}
+
+.hs9{
+	background: #000;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+	border-radius:40px;
+	margin:0px 60px 80px 60px;
+}
+
+.hs9-title{
+    position: absolute;
+    top: 30px;
+    padding-left: 30px;
+    max-width: 350px;
+}
+.hs9-img{
+	border-radius:40px 0px 0px 40px;
+	height: 100%;
+	object-fit: cover;
+    object-position: right;
+}
+.hs9-logo{
+	text-align:center;
+	height:500px;
+	overflow-y:hidden;
+}
+.hs9-logo .swiper-wrapper {
+    transition-timing-function: linear;
+}
+.hs9-logo img{
+	max-width: 150px;
+    margin: 25px 20px;
+    object-fit: contain;
+}
+.hs9 .swiper-container,
+.hs9 .swiper-wrapper,
+.hs9 .swiper-slide{
+  width: 100%;
+  height: 100%!important;
+} */

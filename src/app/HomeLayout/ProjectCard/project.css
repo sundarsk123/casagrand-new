@@ -1,0 +1,173 @@
+.hs3 .swiper-button-prev {
+    background-image: url("/img/Icon-Arrow-05.svg")!important;
+    /* left: 20%!important; */
+    left: -60%!important;
+    right: auto!important;
+    background-repeat: no-repeat;
+    width:40px;
+}
+.hs3 .swiper-button-next {
+    background-image: url("/img/Icon-Arrow-04.svg")!important;
+    left: auto!important;
+    /* right: 20%!important; */
+    right: -60%!important;
+    background-repeat: no-repeat;
+    width:40px;
+}
+.swiper-button-next:after, .swiper-button-prev:after{
+    display:none;
+}
+@media(max-width:992px) {
+.hs3 .swiper-button-prev{
+   left:10%!important;
+}
+.hs3 .swiper-button-next {
+    right:10%!important;
+}
+}
+@media(max-width:767px){
+.swiper-button-next, .swiper-button-prev{
+    display:none!important;
+}   
+}
+
+.mySwiper.swiper {
+    max-width: 350px;
+    margin: 40px auto 0 auto;
+    position: relative
+   
+  }
+  
+  .swiper-slide {
+    display: flex;
+    
+    
+  }
+
+
+
+.hs3 .swiper-slide-active .hs3-grid:before{
+    /* box-shadow: 0 15px 50px rgba(0, 0, 0, 0.2)!important */
+    content: " "; 
+    position:absolute; 
+    width: 100%; 
+    height: 100%; 
+    box-shadow: 1px 1px 20px 0px #00000021; 
+    border-radius: 30px; 
+  }
+
+  
+.hs3 .swiper-slide-active{
+  box-shadow: 0 15px 50px rgba(0, 0, 0, 0.2)!important
+    /* box-shadow: 1px 1px 20px 0px #00000021!important;  */
+  
+}
+
+  .hs3-pd{
+    display: flex;
+  }
+
+  .hgt{
+    height: auto;
+  }
+
+  .hs3 .img-w{
+    width: 100%;
+  }
+
+.swiper-button-prev.swiper-button-disabled , .swiper-button-next.swiper-button-disabled{
+  opacity: 0!important;
+}
+
+@media screen and (max-width : 575px){
+  .mySwiper.swiper{
+    max-width: 270px;
+  }
+}
+
+/* .swiper-slide.hs3-grid:before { 
+  content: " "; 
+  position:absolute; 
+  width: 100%; 
+  height: 100%; 
+  box-shadow: 1px 1px 20px 0px #00000021; 
+  border-radius: 30px; 
+}  */
+
+@media screen and (max-width : 768px) {
+
+}
+
+.pos-re-b{
+  position: relative;
+  bottom: 0.1rem;
+}
+
+.hs3{
+  position: relative;
+}
+
+.pro-card-grid{
+    display: flex;
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    background-color: #4A525A;
+    padding: 5px 7px;
+    border-radius: 50px;
+    width: 100px;
+    justify-content: space-between;
+  
+}
+
+.active-section{
+  background-color: #fff;
+  border-radius: 100%;
+}
+
+.frist{
+  position: relative;
+  padding: 8px 8px;
+ 
+}
+
+.normal-section{
+  padding: 8px 8px;
+  position: relative;
+ 
+}
+
+.change{
+  cursor: pointer;
+}
+
+@media screen and (max-width : 768px) {
+.mx-dn-section{
+    display: none;
+  }
+  .pro-card-grid{
+    display: none;
+  }
+
+}
+
+/* .wd-svg{
+  width: 35px;
+} */
+
+.wd-svg svg{
+  width: 25px;
+  height: 23px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.wd-svgcard svg{
+  width: 25px;
+  height: 22px;
+  object-fit: cover;
+  object-position: center;
+}
+
+
+  

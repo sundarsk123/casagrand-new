@@ -1,0 +1,354 @@
+.costcalculatorlMain{
+    /* background-image: url("/project/project-bg.png"); */
+    background-image: url("/Allbackground/nipater.png");
+    background-repeat: repeat;
+    background-size: 100px 100px;
+    /* background-position: center; */
+    overflow: hidden;
+    border-radius: 0px 0px 30px 30px;
+    }
+    .coc1{
+    padding-top:200px;
+    padding-left:60px;
+    padding-right:60px;
+    padding-bottom:100px;
+    overflow:hidden;
+    }
+    .text-upper{
+    text-transform:uppercase;
+    }
+    
+    .coc1-inner-sec{
+    background:#fff;
+    border-radius:20px;
+    /*padding-top:200px;
+    padding-bottom:200px;*/
+    
+    padding:30px 30px;
+    position:relative;
+    max-width:1200px;
+    margin:0px auto;
+    margin-top:30px;
+    z-index:1;
+    }
+    
+    /* .coc1-inner-sec:before{
+    content: "";
+        background-image: url(https://dezvolta.in/casagrand-perch/img/contactsec1-left.png);
+        background-repeat: no-repeat;
+        background-position: bottom left;
+        background-size: 118px auto;
+        position: absolute;
+        width: 9%;
+        height: 100%;
+        left: 0px;
+        bottom: 0px;
+        opacity: 0.1;
+        z-index:-1;
+       
+        
+    } */
+    /* .coc1-inner-sec:after{
+    content: "";
+        background-image: url(https://dezvolta.in/casagrand-perch/img/contactsec1-right.png);
+        background-repeat: no-repeat;
+        background-position: top right;
+        background-size: 118px auto;
+        position: absolute;
+        width: 9%;
+        height: 100%;
+        right: -18px;
+        bottom: 63px;
+        opacity: 0.1;
+       z-index:-1;
+        
+    } */
+    .costinput{
+    padding:10px 10px;
+    border: 1px solid #E6E6E6;
+    outline: none;
+    width:100%;
+    border-radius:10px;
+    appearance: none;
+      background-image: url(https://dezvolta.in/casagrand-perch/img/down-arrow.svg);
+      
+      background-repeat: no-repeat;
+      background-position: right 0.7rem top 50%;
+      background-size: 1rem auto;
+      
+    }
+    
+    
+    
+    .costcal1-col{
+    border-right:1px solid #E6E6E6;
+    }
+    .costcal1-inner-div{
+    max-width: calc(100% - 30px);
+    }
+    .costinput{width: calc(100% - 7px);}
+  
+    .range-slider p{
+        margin-bottom:7px;
+    }
+    /***ranger slider css **/
+    
+    
+    
+    .range-slider {
+      margin: 40px 0 0 0%;
+    }
+    
+    .range-slider {
+      width: 100%;
+    }
+    
+    .range-slider__range {
+      -webkit-appearance:none;
+      width: calc(100% - (91px));
+      height: 6px;
+      border-radius: 5px;
+      background: #d7dcdf;
+      outline: none;
+      padding: 0;
+      margin: 0;
+    }
+    .range-slider__range::-webkit-slider-thumb {
+      -webkit-appearance: none;
+              appearance: none;
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+       /* background-image:
+        radial-gradient(#979797, #4A525A); */
+        background-image:
+        radial-gradient(#FFFFFF, #FFFFFF);
+      cursor: pointer;
+      -webkit-transition: background 0.15s ease-in-out;
+      transition: background 0.15s ease-in-out;
+      border: 1px solid #F9A247;
+    }
+    .range-slider__range::-webkit-slider-thumb:hover {
+ 
+      background-image:
+        radial-gradient(
+          #FFFFFF,
+          #FFFFFF);
+
+    }
+    .range-slider__range:active::-webkit-slider-thumb {
+     background-image:
+        radial-gradient(
+          #FFFFFF,
+          #FFFFFF);
+     
+    }
+    .range-slider__range::-moz-range-thumb {
+      width: 20px;
+      height: 20px;
+      border: 0;
+      border-radius: 50%;
+      background: #2c3e50;
+      cursor: pointer;
+      -moz-transition:background 0.15s ease-in-out;
+      transition: background 0.15s ease-in-out;
+    }
+    /* .range-slider__range::-moz-range-thumb:hover {
+      background: #1abc9c;
+    }
+    .range-slider__range:active::-moz-range-thumb {
+      background: #1abc9c;
+    }
+    .range-slider__range:focus::-webkit-slider-thumb {
+      box-shadow: 0 0 0 3px #fff, 0 0 0 6px #1abc9c;
+    } */
+    
+    .range-slider__value {
+      display: inline-block;
+      position: relative;
+      width: 72px;
+      color: #FF901C;
+      line-height: 20px;
+          font-size: 18px;
+        font-weight: 400;
+      text-align: center;
+      border-radius: 8px;
+      background: #FEF6ED;
+      border:1px solid #FEF6ED;
+      padding: 12px 0px;
+      margin-left: 8px;
+    }
+    /* .range-slider__value:after {
+      position: absolute;
+      top: 8px;
+      left: -7px;
+      width: 0;
+      height: 0;
+      border-top: 7px solid transparent;
+      border-right: 7px solid #2c3e50;
+      border-bottom: 7px solid transparent;
+      content: "";
+    } */
+    
+    ::-moz-range-track {
+      background: #d7dcdf;
+      border: 0;
+    }
+    
+    input::-moz-focus-inner,
+    input::-moz-focus-outer {
+      border: 0;
+    }
+    /***ranger slider **/
+        .pds3{
+    position:relative;
+    overflow:hidden;}
+    .pds3 .container-fluid{
+    
+    padding-left:0px;
+    padding-right:0px;
+    }
+    .pds3-image{
+    height:100vh;
+    object-fit: cover;
+        object-position: center;
+        border-radius:30px;
+    }
+    .pds3-content-sec{
+    position: absolute;
+    top:0px;
+    bottom:0px;
+    left:0px;
+    right:0px;
+    padding-top:60px;
+    padding-left:60px;
+    padding-right:60px;
+    padding-bottom:60px;
+    
+    }
+    .pds3-statics{
+    display: flex;
+    margin-top:30px;
+    }
+    .pds3-statics-col:nth-child(3){
+    border:none;
+    }
+    .pds3-statics-col:nth-child(1){
+    padding-left:0px;
+    }
+    .pds3-statics-col p:nth-child(1){
+    font-weight: 500;
+        font-size: 30px;
+        margin-bottom:0px;
+        line-height:1em;
+        
+    }
+    .pds3-statics-col p:nth-child(2){
+    font-size:18px;
+    font-weight:400;
+        margin-top: 5px;
+    }
+    .pds3-statics-col{
+    
+        padding-top: 10px;
+        padding-bottom: 10px;
+    border-right:1px solid #000;
+    display: inline-block;
+        padding-right: 5%;
+        padding-left: 5%;
+    }
+    .pds3-cta .cta span:after{
+        content: "";
+         width: 32px;
+         height: 18px;
+        border: none;
+        display: inline-block;
+        color: rgba(255, 255, 255, 0.01);
+        
+        cursor: pointer;
+        
+        background-image: url(https://dezvolta.in/casagrand-perch/img/Icon-Arrow-04.svg);
+        background-size: 28px;
+       
+        background-position-y: 0px;
+        background-position-x: 0px;
+        margin-left: 10px;
+        
+       margin-bottom: -4px;
+       
+        background-repeat: no-repeat;
+    }
+    .pds3-statics-col p{
+    margin-bottom:0px;}
+    .pds3-cta{
+    margin-top:30px;
+    }
+    @media (max-width: 991px){
+        .costcal1-col{
+            border-right:none;
+        }
+        .range-slider__range{
+              width: calc(100% -(85px));
+        }
+        .costcal1-inner-div{
+            max-width:100%;
+        }
+        .costinput{
+            width:100% !important;
+        }
+        .coc1-image-div{
+            margin-top:40px;
+        }
+        .range-slider{
+            margin: 26px 0 0 0% !important; 
+        }
+         .range-slider__range{
+                width: calc(100% - 87px) !important;
+        }
+    }
+    @media (max-width: 767px){
+        .coc1-inner-sec{
+            padding:30px 30px;
+        }
+        .coc1{
+            padding-top:150px;
+            padding-left:0px;
+            padding-right:0px;
+            padding-bottom:70px;
+        }
+        
+       
+        
+        .pds3-statics-col p:nth-child(1) {
+        /*font-size: 30px;*/
+        font-size:25px;
+    }
+    .pds3-content-sec{
+        padding-left:15px;
+        padding-right:15px;
+    }
+  
+    
+    .pds3-statics-col{
+        margin-bottom:20px;
+        padding-left:4%;
+        padding-right:4%;
+    }
+    .pds3-statics-col p:nth-child(2){
+        font-size:17px;
+    }
+    .pds3-cta{
+        margin-top:10px;
+    }
+    
+    }
+    .coc1-image-div img{
+        max-width:316px; 
+        width: 100%;
+    }
+ 
+
+/* .cost-wd{
+    width: 100%;
+} */
+

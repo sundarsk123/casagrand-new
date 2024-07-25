@@ -1,0 +1,23 @@
+@media screen and (min-width : 1024px) {
+    .df-l-none{
+        display: none;
+    }
+}
+
+.inline-blocks{
+    display: inline-block;
+}
+
+.align-middles{
+    vertical-align: middle;
+}
+
+.hide{
+    overflow: hidden;
+    transition: max-height 0.5s ease-out;
+    max-height: 0;
+}
+
+.show{
+    max-height: 500px;
+}

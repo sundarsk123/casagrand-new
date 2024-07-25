@@ -1,0 +1,12 @@
+.sec-max-w{
+    max-width: 1500px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (min-width : 1700px) {
+    .sec-font-size{
+        font-size: 1.6em!important;
+    }
+}

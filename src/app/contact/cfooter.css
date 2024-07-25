@@ -1,0 +1,54 @@
+.footer p {
+    font-weight: 300!important;
+}
+
+@media screen and (max-width : 768px) {
+    .footcol:nth-child(1){
+        order: 2;
+    }
+    .cpy-rgts{
+        order: 2;
+    }
+}
+
+
+
+@media screen and (max-width : 768px) {
+    .footnone{
+        /* display: none;
+        transition: .5s; */
+        overflow: hidden;
+        transition: max-height 0.5s ease;
+        max-height: 0;
+    }
+    .footcol-div h4{
+        margin-bottom: 0px!important;
+    }
+    .footvisible{
+        /* display: block; */
+        max-height: 500px;
+    }
+
+    .clic h4{
+        position: relative;
+    }
+
+    .clic h4:after {
+        content: '';
+        width: 20px;
+        height: 20px;
+        position: absolute;
+        top: calc(50% -7px);
+        background-image: url("/img/faq-icon.svg");
+        background-size: 20px;
+        background-repeat: no-repeat;
+        background-position: center;
+        right: 2px;
+        transition: .3s;
+    }
+    .footactive::after{
+        background-image: url("/less/less-iocn.svg")!important;
+          transform: rotateZ(180deg);
+    }
+   
+}

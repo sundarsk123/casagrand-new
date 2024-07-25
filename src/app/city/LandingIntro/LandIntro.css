@@ -1,0 +1,35 @@
+.hlp1-img {
+    filter: blur(10px); /* Adjust the blur radius as needed */
+  }
+  
+  .hlp1-img.loaded {
+    filter: none;
+  }
+
+  @media screen and (min-width : 768px){
+    .logo-mob{
+      display: none;
+    }
+  }
+
+  @media screen and (max-width : 767px) {
+    .logo-mobs{
+      display: none;
+    }
+    .hgt-sec{
+      height: 90vh;
+    }
+  }
+
+  /* .pos-logo{
+    position: relative;
+    left: -4px;
+    top : 4px;
+  } */
+
+  .Def-img-wd{
+    width: 100%;
+    height: auto;
+  }
+
+  

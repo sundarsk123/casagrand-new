@@ -1,0 +1,8 @@
+.imgs img{
+    max-width: 100%;
+    height: auto;
+}
+
+.df-block{
+    display: block;
+}
